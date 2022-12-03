@@ -20,8 +20,7 @@ inquirer
       name: 'description',
     },
     {
-      type: 'checkbox',
-      choices: ['installation', 'usage', 'credits', 'license', 'features', 'how-to-contribute', 'tests', 'questions'],
+      type: 'confirm',
       message: 'What would you like to include in your table of contents?',
       name: 'contents',
     },
@@ -42,15 +41,9 @@ inquirer
     },
     {
       type: 'list',
-      choices: ['None', 'MIT', 'Mozilla', 'Apache', 'GNU LGPLv3'],
+      choices: ['None', 'MIT', 'Mozilla', 'Apache', 'GPLv3'],
       message: 'Which license is associated with this application?',
       name: 'license',
-    },
-    {
-      type: 'list',
-      choices: ['blue', 'green', 'orange', 'yellow', 'red'],
-      message: 'Please select a color for your badge.',
-      name: 'color',
     },
     {
       type: 'input',
@@ -64,7 +57,7 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Are there any tests that can be run for your application?',
+      message: 'Please list instructions for testing.',
       name: 'tests',
     },
     {

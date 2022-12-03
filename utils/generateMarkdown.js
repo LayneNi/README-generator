@@ -1,36 +1,92 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  switch (license) {
+    case 'MIT':
+      console.log("hello")
+      return `![badge](https://img.shields.io/badge/License-MIT-blue)`
+    case 'Mozilla':
+      return `![badge](https://img.shields.io/badge/License-Mozilla-blue)`
+    case 'Apache':
+      return `![badge](https://img.shields.io/badge/License-Apache-blue)`
+    case 'GPLv3':
+      return `![badge](https://img.shields.io/badge/License-GPLv3-blue)`
+    default:
+      return "";
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
+function renderLicenseLink(license) {
+  switch (license) {
+    case 'MIT':
+      console.log("hello")
+      return `License: MIT https://choosealicense.com/licenses/mit/`
+    case 'Mozilla':
+      return `License: Mozilla https://choosealicense.com/licenses/mpl-2.0/`
+    case 'Apache':
+      return `License: Apache https://choosealicense.com/licenses/apache-2.0/`
+    case 'GPLv3':
+      return `License: GPLv3 https://choosealicense.com/licenses/gpl-3.0/`
+    default:
+      return "";
+}
+}
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  switch (license) {
+    case 'None':
+      console.log("hello")
+      return "" 
+    default:
+      return "## License";
+  }
+}
+
+function renderTableOfContentSection(content) {
+  console.log("banana");
+  console.log(content);
+if (content === true){
+  return "## Table of Contents"
+  } else {
+    return ""
+  }
+}
+
+function renderTableOfContent(content) {
+  switch (content) {
+    case false:
+      console.log("hello")
+      return "" 
+    default:
+      return `<br\>- [installation](#installation)
+      <br\>- [usage](#usage)
+      <br\>- [credits](#credits)
+      <br\>- [license](#license)
+      <br\>- [features](#features)
+      <br\>- [how-to-contribute](#how-to-contribute)
+      <br\>- [tests](#tests)
+      <br\>- [questions](#questions)`
+  }
+}
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
 # ${data.title}
 
-![badge](https://img.shields.io/badge/license-${data.license}-${data.color})
+${renderLicenseBadge(data.license)}
 
 ## Description
 
 ${data.description}
 
-## Table of Contents
 
-- [${data.contents[0]}](#${data.contents[0]})
-- [${data.contents[1]}](#${data.contents[1]})
-- [${data.contents[2]}](#${data.contents[2]})
-- [${data.contents[3]}](#${data.contents[3]})
-- [${data.contents[4]}](#${data.contents[4]})
-- [${data.contents[5]}](#${data.contents[5]})
-- [${data.contents[6]}](#${data.contents[6]})
-- [${data.contents[7]}](#${data.contents[7]})
+${renderTableOfContentSection(data.contents)}
+${renderTableOfContent(data.contents)}
 
 ## Installation
 
@@ -43,11 +99,10 @@ ${data.usage}
 
 ## Credits
 
-My contributors were ${data.credits}
+Contributors: ${data.credits}
 
-## License
-
-License: ${data.license}
+${renderLicenseSection(data.license)}
+${renderLicenseLink(data.license)}
 
 ## Features
 

@@ -1,7 +1,7 @@
 
-# a
+# 
 
-![badge](https://img.shields.io/badge/license-None-blue)
+![badge](https://img.shields.io/badge/License-MIT-blue)
 
 ## Description
 
@@ -9,19 +9,18 @@
 
 
 ## Table of Contents
-
-- [installation](#installation)
-- [usage](#usage)
-- [credits](#credits)
-- [license](#license)
-- [features](#features)
-- [how-to-contribute](#how-to-contribute)
-- [tests](#tests)
-- [questions](#questions)
+<br>- [installation](#installation)
+      <br>- [usage](#usage)
+      <br>- [credits](#credits)
+      <br>- [license](#license)
+      <br>- [features](#features)
+      <br>- [how-to-contribute](#how-to-contribute)
+      <br>- [tests](#tests)
+      <br>- [questions](#questions)
 
 ## Installation
 
-a
+
 
 ## Usage
 
@@ -30,11 +29,10 @@ a
 
 ## Credits
 
-My contributors were a
+Contributors: 
 
 ## License
-
-License: None
+License: MIT https://choosealicense.com/licenses/mit/
 
 ## Features
 
