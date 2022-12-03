@@ -21,7 +21,7 @@ inquirer
     },
     {
       type: 'checkbox',
-      choices: ['installation', 'usage', 'credits', 'license'],
+      choices: ['installation', 'usage', 'credits', 'license', 'features', 'how-to-contribute', 'tests', 'questions'],
       message: 'What would you like to include in your table of contents?',
       name: 'contents',
     },
@@ -42,7 +42,7 @@ inquirer
     },
     {
       type: 'list',
-      choices: ['MIT', 'Mozilla', 'Apache', 'GNU LGPLv3'],
+      choices: ['None', 'MIT', 'Mozilla', 'Apache', 'GNU LGPLv3'],
       message: 'Which license is associated with this application?',
       name: 'license',
     },
