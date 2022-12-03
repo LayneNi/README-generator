@@ -12,8 +12,60 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+# ${data.title}
 
+![badge](https://img.shields.io/badge/license-${data.license}-${data.color})
+
+## Description
+
+${data.description}
+
+
+## Table of Contents
+
+- [${data.contents[0]}](#${data.contents[0]})
+- [${data.contents[1]}](#${data.contents[1]})
+- [${data.contents[2]}](#${data.contents[2]})
+- [${data.contents[3]}](#${data.contents[3]})
+
+## Installation
+
+${data.installation}
+
+## Usage
+
+${data.usage}
+
+
+## Credits
+
+My contributors were ${data.credits}
+
+## License
+
+License: ${data.license}
+
+## Features
+
+My applications had features such as: ${data.features}
+
+## How to Contribute
+
+To contribute to my application: ${data.contribute}
+
+
+## Tests
+
+${data.tests}
+
+
+## Questions
+
+Github Username: ${data.username}
+\nGithin Profile link: https://github.com/${data.username}
+
+\nFor any additional questions please reach out to me via email at ${data.email}
 `;
 }
 
