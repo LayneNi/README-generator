@@ -22,13 +22,13 @@ function renderLicenseLink(license) {
   switch (license) {
     case 'MIT':
       console.log("hello")
-      return `License: MIT https://choosealicense.com/licenses/mit/`
+      return `This project is licensed under the MIT https://choosealicense.com/licenses/mit/`
     case 'Mozilla':
-      return `License: Mozilla https://choosealicense.com/licenses/mpl-2.0/`
+      return `This project is licensed under the Mozilla https://choosealicense.com/licenses/mpl-2.0/`
     case 'Apache':
-      return `License: Apache https://choosealicense.com/licenses/apache-2.0/`
+      return `This project is licensed under the Apache https://choosealicense.com/licenses/apache-2.0/`
     case 'GPLv3':
-      return `License: GPLv3 https://choosealicense.com/licenses/gpl-3.0/`
+      return `This project is licensed under the GPLv3 https://choosealicense.com/licenses/gpl-3.0/`
     default:
       return "";
 }
@@ -89,7 +89,7 @@ ${renderTableOfContentSection(data.contents)}
 ${renderTableOfContent(data.contents)}
 
 ## Installation
-
+To install necessary dependencies, run the following command:
 ${data.installation}
 
 ## Usage
@@ -110,7 +110,7 @@ My applications had features such as: ${data.features}
 
 ## How to Contribute
 
-To contribute to my application: ${data.contribute}
+To contribute to my application, ${data.contribute}
 
 
 ## Tests

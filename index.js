@@ -16,7 +16,7 @@ inquirer
     },
     {
       type: 'input',
-      message: 'What is a description of your app?',
+      message: 'Please write a short description of your app?',
       name: 'description',
     },
     {
@@ -31,7 +31,7 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Please share any instructions and examples for use of this app.',
+      message: 'What does the user need to know about using the repo?',
       name: 'usage',
     },
     {
@@ -57,7 +57,7 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Please list instructions for testing.',
+      message: 'What commands should be run to run tests?',
       name: 'tests',
     },
     {
