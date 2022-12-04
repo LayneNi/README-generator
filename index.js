@@ -11,22 +11,22 @@ inquirer
   .prompt([
     {
       type: 'input',
-      message: 'What is your app title?',
+      message: 'What is the title of your app?',
       name: 'title',
     },
     {
       type: 'input',
-      message: 'Please write a short description of your app?',
+      message: 'Please write a short description of your app.',
       name: 'description',
     },
     {
       type: 'confirm',
-      message: 'What would you like to include in your table of contents?',
+      message: 'Would you like to include a table of contents?',
       name: 'contents',
     },
     {
       type: 'input',
-      message: 'Are there any steps necessary for installation?',
+      message: 'What commands should be run to install dependencies?',
       name: 'installation',
     },
     {
@@ -47,12 +47,12 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Please list any key features of this application.',
+      message: 'Are there any key features for your repo?',
       name: 'features',
     },
     {
       type: 'input',
-      message: 'How can someone contrinute to your application?',
+      message: 'What does the user need to know about contrinuting to your repo?',
       name: 'contribute',
     },
     {
@@ -67,7 +67,7 @@ inquirer
     },
     {
       type: 'input',
-      message: 'What is your email?',
+      message: 'What is your email address?',
       name: 'email',
     },
   ])

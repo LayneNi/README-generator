@@ -3,7 +3,6 @@
 function renderLicenseBadge(license) {
   switch (license) {
     case 'MIT':
-      console.log("hello")
       return `![badge](https://img.shields.io/badge/License-MIT-blue)`
     case 'Mozilla':
       return `![badge](https://img.shields.io/badge/License-Mozilla-blue)`
@@ -21,14 +20,13 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case 'MIT':
-      console.log("hello")
-      return `This project is licensed under the MIT https://choosealicense.com/licenses/mit/`
+      return `This project is licensed under the MIT license. https://choosealicense.com/licenses/mit/`
     case 'Mozilla':
-      return `This project is licensed under the Mozilla https://choosealicense.com/licenses/mpl-2.0/`
+      return `This project is licensed under the Mozilla license. https://choosealicense.com/licenses/mpl-2.0/`
     case 'Apache':
-      return `This project is licensed under the Apache https://choosealicense.com/licenses/apache-2.0/`
+      return `This project is licensed under the Apache license. https://choosealicense.com/licenses/apache-2.0/`
     case 'GPLv3':
-      return `This project is licensed under the GPLv3 https://choosealicense.com/licenses/gpl-3.0/`
+      return `This project is licensed under the GPLv3 license. https://choosealicense.com/licenses/gpl-3.0/`
     default:
       return "";
 }
@@ -38,7 +36,6 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   switch (license) {
     case 'None':
-      console.log("hello")
       return "" 
     default:
       return "## License";
@@ -46,8 +43,6 @@ function renderLicenseSection(license) {
 }
 
 function renderTableOfContentSection(content) {
-  console.log("banana");
-  console.log(content);
 if (content === true){
   return "## Table of Contents"
   } else {
@@ -58,7 +53,6 @@ if (content === true){
 function renderTableOfContent(content) {
   switch (content) {
     case false:
-      console.log("hello")
       return "" 
     default:
       return `<br\>- [installation](#installation)
@@ -106,7 +100,7 @@ ${renderLicenseLink(data.license)}
 
 ## Features
 
-My applications had features such as: ${data.features}
+My application has features such as: ${data.features}
 
 ## How to Contribute
 
@@ -114,7 +108,7 @@ To contribute to my application, ${data.contribute}
 
 
 ## Tests
-
+To test the application, run the following command:
 ${data.tests}
 
 

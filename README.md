@@ -1,58 +1,43 @@
-
-# Application
-
-![badge](https://img.shields.io/badge/License-Mozilla-blue)
+# <Your-Project-Title>
 
 ## Description
 
-This is the desription of my application.
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
 
-## Table of Contents
-<br>- [installation](#installation)
-      <br>- [usage](#usage)
-      <br>- [credits](#credits)
-      <br>- [license](#license)
-      <br>- [features](#features)
-      <br>- [how-to-contribute](#how-to-contribute)
-      <br>- [tests](#tests)
-      <br>- [questions](#questions)
 
 ## Installation
 
-Download the app installer, Install the app and then use the app.
+What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
 
-This is an app that can generate a Readme for you.
+Provide instructions and examples for use. Include screenshots as needed.
 
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
 
 ## Credits
 
-Contributors: Leif, Ben, Sam and Tutor
 
 ## License
-License: Mozilla https://choosealicense.com/licenses/mpl-2.0/
 
-## Features
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
-My applications had features such as: Lots of features
 
-## How to Contribute
 
-To contribute to my application: Ca$happ me money
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 
 
 ## Tests
-
-Lots of tests
-
-
-## Questions
-
-Github Username: LayneNi
-
-Githin Profile link: https://github.com/LayneNi
-
-
-For any additional questions please reach out to me via email at Laynenigro@gmail.com
