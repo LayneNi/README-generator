@@ -1,39 +1,18 @@
-# <Your-Project-Title>
+
+# README-Generator
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+My motivation in creating this project was to learn to dynamically create a markdown file using nodejs and template literals. I built a readme generator because it is commonplace in web development to have a readme written in markdown syntax, therefore while dynamically creating the readme I can also become more familiar with markdown syntax. This application solves the problem of having to create a readme from scratch which can be time consuming. I learned a lot about dynamically populating data to a page using template literals as well as using inquierer prompts and reading/writing a file.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
+Sample README is located in Sample folder.
 
 ## Usage
+Video link:
 
-Provide instructions and examples for use. Include screenshots as needed.
+[https://drive.google.com/file/d/1vRx6rsE_IEFnrdrz3JobOEHUEqiMehcH/view?usp=share_link](https://drive.google.com/file/d/1vRx6rsE_IEFnrdrz3JobOEHUEqiMehcH/view?usp=share_link)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Screenshot:
 
-## Credits
-
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+![link](./images/README-generator-screenshot.PNG)

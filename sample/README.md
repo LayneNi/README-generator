@@ -5,7 +5,7 @@
 
 ## Description
 
-This is a short description of my application.
+This is a short description of the application.
 
 
 ## Table of Contents
@@ -24,23 +24,23 @@ npm i
 
 ## Usage
 
-Not much information.
+Not much information needed.
 
 
 ## Credits
 
-Contributors: Person 1, Person 2 and Person 3.
+Contributors: Persone 1, Person 2, person 3 and person 4.
 
 ## License
 This project is licensed under the Mozilla license. https://choosealicense.com/licenses/mpl-2.0/
 
 ## Features
 
-My application has features such as: There are plenty of key features for this application.
+My application has features such as: Plenty of key features.
 
 ## How to Contribute
 
-To contribute to my application, Please contact me via email.
+To contribute to my application, Reach out to me via email.
 
 
 ## Tests

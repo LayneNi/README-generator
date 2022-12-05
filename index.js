@@ -73,7 +73,7 @@ inquirer
   ])
   .then((response) => {
     console.log(response);
-    writeToFile("README.md", generateMarkdown({ ...response }));
+    writeToFile("./sample/README.md", generateMarkdown({ ...response }));
 
   });
 
@@ -82,10 +82,3 @@ function writeToFile(fileName, data) {
   fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
-// TODO: Create a function to initialize app
-function init() {
-
-}
-
-// Function call to initialize app
-init();
